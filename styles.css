@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos de la imagen en la cabecera */
+  header img {
+    width: 200px; /* Cambia el valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción de la imagen */
+  }
+  
+  h1, h2, h3 {
+    color: hsl(235, 25%, 38%);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #00A8E8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos de la barra de navegación */
+  nav {
+    background-color: #7B84DF;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #b35a1f;
+    text-decoration: none;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 40px;
+  }
+  
+  section h2 {
+    color: #F49AC2;
+  }
+  
+  /* Estilos del formulario de contacto */
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  form button {
+    background-color: #AEC6CF;
+    color: #b35a1f;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #b35a1f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
